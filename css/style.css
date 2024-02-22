@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #f0f0f0;
+}
+.header_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 15px 0;
+
+color: #97999b;
+}
+.logo{
+
+width: 20%;
+}
+.logo_img{
+
+}
+nav{
+
+width: 50%;
+
+/* justify-content: end; */
+}
+nav ul{
+
+/* text-decoration: none; */
+
+/* list-style: none; */
+
+/* justify-content: end; */
+
+list-style: none;
+
+display: flex;
+
+justify-content: end;
+
+/* text-decoration: none; */
+}
+nav ul li{
+
+margin-left: 50px;
+}
+nav ul li a{
+    
+text-transform: capitalize;
+    
+text-decoration: none;
+    
+font-family: "Lato", sans-serif;
+    
+font-weight: 400;
+    
+font-style: normal;
+    
+color: #2d3950;
+}
+.banner{
+
+position: relative;
+}
+.banner img{
+
+width: 100%;
+
+/* margin-bottom: 3px; */
+}
+.banner_content{
+
+top: 50%;
+
+position: absolute;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+font-family: "Lato", sans-serif;
+}
+.banner_content h1{
+
+color: #f0f0f0;
+
+text-transform: uppercase;
+
+font-size: 70px;
+font-family: "Lato", sans-serif;
+}
+.banner_content span{
+
+display: block;
+
+height: 2px;
+
+width: 100%;
+
+background: skyblue;
+}
+.banner_content p{
+
+color: #fff;
+
+margin: 20px 0 40px 0;
+}
+.banner_content button{
+    
+background: transparent;
+    
+text-transform: capitalize;
+    
+border: 1px solid skyblue;
+    
+padding: 10px 20px;
+    
+font-size: 15px;
+    
+color: #fff;
+    
+border-radius: 4px;
+}
+.banner_content button:hover{
+    background-color: aquamarine;
+}
+.icon{
+
+position: absolute;
+
+color: #fff;
+
+left: 50%;
+
+bottom: 100px;
+
+transform: translate(-50%, 0px);
+font-size: 20px;
+}
+.paragraph{
+
+/* width: 70%; */
+
+/* margin: auto; */
+
+text-align: center;
+
+/* height: 250px; */
+
+/* background-color: #f0f0f0; */
+
+/* top: 10px; */
+
+/* bottom: 10px; */
+
+/* margin-bottom: 68px; */
+
+/* margin-top: -21px; */
+
+padding: 50px 250px 50px;
+}
+.paragraph h1{
+
+padding: 20px;
+
+font-family: "Lato", sans-serif;
+
+color: #2d3950;
+
+font-size: 40px;
+
+font-weight: 400;
+}
+.paragraph p{
+    font-family: "Lato", sans-serif;color: #999999;font-size: 
+    20px;font-weight: 400;text-align: center;/* left: 15%; */padding: 10px;}
+
+.bgcolor{
+    background-color: #f0f0f0;
+}
